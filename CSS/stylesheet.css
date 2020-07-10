@@ -339,13 +339,34 @@ ul.reach li{
         font-size: 12px;
         margin-left: 400px;
     }
+
     
 
     /*Contact page CSS*/
     .formT{
         font-size: 30px;
     }
+    .form{
+        width: 80%;
+        margin: auto;
+        background-image: url(https://t3.ftcdn.net/jpg/03/19/23/38/240_F_319233867_UaKXwkVZNle6leRx5QT9NTH2kdAWuXvF.jpg);
+    }
 
+    .form input {
+        background: transparent;
+        border: none;
+        border-bottom: 3px solid black;    
+    }
+    form ::placeholder{
+        font-weight: 900;
+        color: white;
+
+    }
+    .form textarea{
+        background: transparent;
+        border: none;
+        border-bottom: 3px solid black; 
+    }
     #ring{
         font-size: 90px;
         border: 1px solid #729d39;

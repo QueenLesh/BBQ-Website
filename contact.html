@@ -29,9 +29,6 @@
               <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Service</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="#">Testimonials</a>
             </li>
             <li class="nav-item">
@@ -47,7 +44,6 @@
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="#">Donate</a>
                 <a class="dropdown-item" href="#">Volunteer</a>
-                <a class="dropdown-item" href="#">Something else here</a>
               </div>
             </li>
           </ul>
@@ -104,27 +100,28 @@
                   </p>
               </div>
           </div>
-          <form>
+          <form action="https://formspree.io/mwkrqgyl"
+          method="POST" class="form">
             <div class="form-row mt-5 input">
               <div class="form-group col-md-6">
-                <input type="name" class="form-control"  placeholder="Your Name">
+                <input type="text" name="name" class="form-control"  placeholder="Your Name">
               </div>
               <div class="form-group col-md-6">
-                <input type="contact" class="form-control"  placeholder="Your cellphone">
+                <input name="_tel" class="form-control"  placeholder="Your cellphone">
               </div>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control"  placeholder="Your Email">
+              <input type="text" name="_replyto" class="form-control"  placeholder="Your Email">
             </div>
             <div class="form-group">
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Your Message"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" name="message" rows="2" placeholder="Your Message"></textarea>
             </div>
             <div class="col-12 text-center">
-                <button type="send" class="btn btn-success">Send</button>
+                <button type="submit" class="btn btn-success">Send</button>
             </div>            
           </form>
       </div>
-
+      
       <section class="map mt-5">
         <div class="container-fluid">
           <div class="row">
